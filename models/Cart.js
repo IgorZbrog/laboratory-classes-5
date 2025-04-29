@@ -1,3 +1,4 @@
+const Product = require('./Product');
 class Cart {
     static #items = [];
   
