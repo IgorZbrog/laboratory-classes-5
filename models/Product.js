@@ -24,10 +24,6 @@ class Product {
   }
 
   static getLast() {
-    if (!this.#products.length) {
-      return;
-    }
-
     return this.#products[this.#products.length - 1];
   }
 }
